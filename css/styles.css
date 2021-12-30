@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 140px 0 80px 0;
+  width: 100vw;
+  background: linear-gradient(180deg, #af67e9, #6565e7);
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+  background: white;
+  width: 95%;
+  max-width: 640px;
+  border-radius: 24px;
+  box-shadow: -13px 13px 10px 0 rgba(27, 30, 121, 0.3);
+}
+main .img-container {
+  background-image: url(../images/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 130px;
+}
+main .img-container #illustration-box {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+main .img-container #illustration-woman {
+  width: 220px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .questions {
+  padding: 0 24px 46px 24px;
+  height: 320px;
+}
+main .questions h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-block-end: 24px;
+  text-align: center;
+}
+main .questions .question-block {
+  padding: 20px 0;
+  border-block-end: 1px solid #e7e7e9;
+  position: relative;
+}
+main .questions .question-block .question {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+main .questions .question-block .question h4 {
+  display: inline-block;
+  color: #787887;
+}
+main .questions .question-block .question h4 .active {
+  font-weight: 700;
+}
+main .questions .question-block .question h4 .orange {
+  color: #f47c57;
+}
+main .questions .question-block .question img {
+  width: 10px;
+  height: 7px;
+  transition: 0.5s;
+}
+main .questions .question-block .question img.rotate {
+  transform: rotate(180deg);
+}
+main .questions .question-block .question .active {
+  font-weight: 700;
+}
+main .questions .question-block .answer {
+  display: none;
+  margin-block-start: 20px;
+  position: relative;
+}
+main .questions .question-block .answer.show {
+  display: block;
+}
+main .questions .answer {
+  font-size: 12px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5px;
+}
+.attribution a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1040px) {
+  body {
+    height: 100vh;
+    padding: 0;
+  }
+
+  main {
+    width: 95%;
+    max-width: 920px;
+    height: 510px;
+    display: flex;
+  }
+  main .img-container {
+    height: auto;
+    width: 50%;
+    background-image: url(../images/illustration-woman-online-desktop.svg), url(../images/bg-pattern-desktop.svg);
+    background-position: -100px center, -660px -320px;
+    background-size: 440px, 1000px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  main .img-container #illustration-box {
+    top: 50%;
+    transform: translateY(-50%);
+    left: -96px;
+    transition: 0.5s;
+  }
+  main .img-container #illustration-woman {
+    left: -9999px;
+    top: -9999px;
+  }
+  main .questions {
+    width: 40%;
+    padding-inline-end: 10%;
+    padding-block-start: 100px;
+  }
+  main .questions h1 {
+    text-align: left;
+  }
+}
+@media screen and (max-height: 580px) {
+  .attribution {
+    background-color: green;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
