@@ -1,7 +1,6 @@
 # Frontend Mentor - FAQ accordion card solution
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -9,9 +8,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
+  - [Built With](#built-with)
 - [Author](#author)
-
 
 ## Overview
 
@@ -24,13 +22,14 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 
 ### Screenshot
-Desktop : 
+
+#### Desktop :
+
 ![](https://firebasestorage.googleapis.com/v0/b/project-data-ja.appspot.com/o/front-end-mentor%2Ffaq-accordion-card%2FFAQ-accordion-screenshot.png?alt=media&token=dbb053b4-97df-4b86-9d70-6d3f4b18cb13)
 
-Mobile :
+#### Mobile :
+
 ![](https://firebasestorage.googleapis.com/v0/b/project-data-ja.appspot.com/o/front-end-mentor%2Ffaq-accordion-card%2FFAQ-accordion-screenshot-MOBILE.png?alt=media&token=3f3202d2-385d-44bf-ac0a-59f2a98aa6ce)
-
-
 
 ### Links
 
@@ -39,8 +38,7 @@ Mobile :
 
 ## Built With
 
-
-- SASS / SCSS 
+- SASS / SCSS
 - Flexbox
 - Mobile-first workflow
 - Javascript
@@ -50,6 +48,3 @@ Mobile :
 
 - Portfolio Website - [Jason Amey](https://www.jasonamey.com)
 - Frontend Mentor Profile Page - [@jasonamey](https://www.frontendmentor.io/profile/jasonamey)
-
-
-
