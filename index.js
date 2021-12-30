@@ -7,12 +7,16 @@ questions.forEach((question) => {
     handleAnswer(question);
   });
   question.addEventListener("mouseenter", () => {
-    questionHeadline.style.color = "hsl(14, 88%, 65%)";
-    box.style.left = "-136px";
+    if (parseInt(window.innerWidth) > 1039) {
+      questionHeadline.style.color = "hsl(14, 88%, 65%)";
+      box.style.left = "-136px";
+    }
   });
   question.addEventListener("mouseleave", () => {
-    box.style.left = "-96px";
-    questionHeadline.style.color = "hsl(240, 6%, 50%)";
+    if (parseInt(window.innerWidth) > 1039) {
+      box.style.left = "-96px";
+      questionHeadline.style.color = "hsl(240, 6%, 50%)";
+    }
   });
 });
 
