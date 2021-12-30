@@ -20,7 +20,7 @@ main {
   border-radius: 24px;
   box-shadow: -13px 13px 10px 0 rgba(27, 30, 121, 0.3);
   .img-container {
-    background-image: url(../images/bg-pattern-mobile.svg);
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/project-data-ja.appspot.com/o/front-end-mentor%2Ffaq-accordion-card%2Fbg-pattern-mobile.svg?alt=media&token=a165aef8-d818-4329-8ae2-e798e8816dcb");
     background-repeat: no-repeat;
     background-position: top center;
     height: 130px;
@@ -116,8 +116,8 @@ main {
     .img-container {
       height: auto;
       width: 50%;
-      background-image: url(../images/illustration-woman-online-desktop.svg),
-        url(../images/bg-pattern-desktop.svg);
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/project-data-ja.appspot.com/o/front-end-mentor%2Ffaq-accordion-card%2Fillustration-woman-online-desktop.svg?alt=media&token=f7fc4271-4050-4d95-a727-85c41983206f"),
+        url("https://firebasestorage.googleapis.com/v0/b/project-data-ja.appspot.com/o/front-end-mentor%2Ffaq-accordion-card%2Fbg-pattern-desktop.svg?alt=media&token=86bcc224-46f9-4f34-a802-c9cc18afe6ed");
       background-position: -100px center, -660px -320px;
       background-size: 440px, 1000px;
       background-repeat: no-repeat;
