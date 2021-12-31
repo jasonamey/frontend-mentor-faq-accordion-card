@@ -82,6 +82,8 @@ main {
         display: none;
         margin-block-start: 20px;
         position: relative;
+        line-height: 1.6;
+        color: $dark-grayish-blue;
 
         &.show {
           display: block;

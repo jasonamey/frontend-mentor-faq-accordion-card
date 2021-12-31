@@ -217,6 +217,8 @@ main .questions .question-block .answer {
   display: none;
   margin-block-start: 20px;
   position: relative;
+  line-height: 1.6;
+  color: #787887;
 }
 main .questions .question-block .answer.show {
   display: block;
