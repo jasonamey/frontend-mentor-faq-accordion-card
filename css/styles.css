@@ -171,7 +171,8 @@ main .img-container #illustration-woman {
 }
 main .questions {
   padding: 0 24px 46px 24px;
-  height: 320px;
+  height: 340px;
+  overflow: hidden;
 }
 main .questions h1 {
   font-size: 30px;
@@ -217,7 +218,7 @@ main .questions .question-block .answer {
   display: none;
   margin-block-start: 20px;
   position: relative;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #787887;
 }
 main .questions .question-block .answer.show {

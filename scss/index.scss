@@ -38,7 +38,8 @@ main {
   }
   .questions {
     padding: 0 24px 46px 24px;
-    height: 320px;
+    height: 340px;
+    overflow: hidden;
     h1 {
       font-size: 30px;
       font-weight: 700;
@@ -82,7 +83,7 @@ main {
         display: none;
         margin-block-start: 20px;
         position: relative;
-        line-height: 1.6;
+        line-height: 1.4;
         color: $dark-grayish-blue;
 
         &.show {
